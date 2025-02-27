@@ -1,0 +1,19 @@
+# Ignore model directory or model files
+model/
+*.h5
+*.json
+
+# Ignore virtual environment
+.venv/
+
+# Ignore Python bytecode files
+*.pyc
+__pycache__/
+
+# Ignore Streamlit configurations and logs
+.streamlit/
+
+# Ignore other unnecessary files
+*.log
+*.bak
+
