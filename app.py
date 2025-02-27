@@ -20,7 +20,7 @@ class_indices_url = 'https://drive.google.com/uc?export=download&id=1fI4tX3iBfQk
 
 # Download the model and class indices if not already downloaded
 model_path = 'model/model.h5'
-class_indices_path = 'class_indices.json'
+class_indices_path = "/tmp/class_indices.json"
 
 if not os.path.exists(model_path):
     download_file_from_url(model_url, model_path)
