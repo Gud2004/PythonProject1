@@ -2,9 +2,6 @@
 
 A deep learning–based web application that predicts plant diseases from leaf images using a Convolutional Neural Network (CNN). Built with TensorFlow, deployed using Streamlit.
 
-[![Live Demo]([https://img.shields.io/badge/Live-Demo-green)](https://plantguardai.streamlit.app](https://pythonproject1-kvabshwgpx859ltgx6socc.streamlit.app/))  
-
-
 ---
 
 ## 🌐 Live Demo
