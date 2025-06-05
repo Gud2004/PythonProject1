@@ -1,57 +1,79 @@
-🌿 PlantGuardAI - Deep Learning Powered Plant Disease Detection
-An end-to-end image classification system for real-time plant disease detection using Convolutional Neural Networks (CNN) and Streamlit.
+# 🌿 PlantGuardAI - AI-Powered Plant Disease Detection
 
-🚀 Live Demo
-🔗 Try the App on Streamlit
+A deep learning–based web application that predicts plant diseases from leaf images using a Convolutional Neural Network (CNN). Built with TensorFlow, deployed using Streamlit.
 
-Upload a plant leaf image to detect its disease instantly.
+[![Live Demo]([https://img.shields.io/badge/Live-Demo-green)](https://plantguardai.streamlit.app](https://pythonproject1-kvabshwgpx859ltgx6socc.streamlit.app/))  
 
-📌 About the Project
-PlantGuardAI is an AI-powered web application that identifies plant diseases from leaf images using a custom-built deep learning model. This project aims to empower farmers, researchers, and agriculturists with early disease detection to improve crop health and yield.
 
-🎯 Key Features
-✅ Trained on PlantVillage dataset with 38 classes
-✅ Achieved ~98% accuracy on validation data
-✅ Real-time prediction via Streamlit Web App
-✅ Supports custom image uploads
-✅ Deployed and production-ready
-✅ Clean, intuitive UI for ease of use
+---
 
-🧠 Model Details
-Framework: TensorFlow / Keras
+## 🌐 Live Demo
 
-Model: Convolutional Neural Network (CNN)
+🔗 **[Click here to try PlantGuardAI](https://plantguardai.streamlit.app)**  
+> Upload a plant leaf image to detect diseases instantly via a responsive and intuitive interface.
 
-Architecture: 3 Conv2D + MaxPooling2D layers, followed by Dense layers
+---
 
-Loss Function: Categorical Crossentropy
+## 📌 Overview
 
-Optimizer: Adam
+PlantGuardAI is designed to assist farmers, researchers, and agritech professionals by leveraging AI to accurately detect and classify plant diseases. With over **38 plant classes** and thousands of image samples, the model delivers real-time and highly accurate predictions.
 
-Training Accuracy: 99%
+---
 
-Validation Accuracy: ~98%
+## 🎯 Features
 
-📊 Dataset
-Source: Kaggle - PlantVillage Dataset
+- ✅ Built using **Convolutional Neural Networks (CNNs)**
+- ✅ Trained on **50,000+ labeled images**
+- ✅ Predicts **38 different plant diseases**
+- ✅ **~98% validation accuracy**
+- ✅ **Live Streamlit demo** for real-time predictions
+- ✅ Fully open-source and extensible
 
-Size: 50,000+ labeled images
+---
 
-Classes: 38 plant species and disease types
+## 🧠 Model Architecture
 
-Format: RGB images categorized by plant type and disease
+- **Framework**: TensorFlow / Keras  
+- **Layers**: 3× Conv2D → MaxPooling → Flatten → Dense → Dropout  
+- **Activation**: ReLU, Softmax  
+- **Loss Function**: Categorical Crossentropy  
+- **Optimizer**: Adam  
+- **Metrics**: Accuracy
 
-🧪 Trained Model
-📥 Download Trained Model (.h5)
+---
 
-🛠️ Installation & Usage
-⚙️ Requirements
-bash
-Copy
-Edit
+## 📂 Dataset
+
+- **Source**: [Kaggle - PlantVillage Dataset](https://www.kaggle.com/datasets/abdallahalidev/plantvillage-dataset)  
+- **Contents**: ~54,000 images  
+- **Categories**: 38 plant-disease combinations  
+- **Preprocessing**: Image resizing, normalization, augmentation
+
+---
+
+## 🧪 Trained Model
+
+🔗 **[Download Trained Model (.h5)](https://drive.google.com/file/d/1rKh-IElSdHTqax7XdfSdZTn-r8T_qWPf/view?usp=drive_link)**
+
+Use this file for local predictions or custom deployment.
+
+---
+
+## 🚀 How to Use
+
+### 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/PlantGuardAI.git
+cd PlantGuardAI
 pip install -r requirements.txt
-▶️ Run Locally
+▶️ Run the App
 bash
 Copy
 Edit
 streamlit run app.py
+🖼️ Predict a Leaf Image
+Upload a plant leaf image
+
+View the predicted disease and class probability
+
