@@ -6,7 +6,7 @@ A deep learning–based web application that predicts plant diseases from leaf i
 
 ## 🌐 Live Demo
 
-🔗 **[Click here to try PlantGuardAI](https://plantguardai.streamlit.app)**  
+🔗 **[Click here to try PlantGuardAI]( https://pythonproject1-kvabshwgpx859ltgx6socc.streamlit.app/)**  
 > Upload a plant leaf image to detect diseases instantly via a responsive and intuitive interface.
 
 ---
